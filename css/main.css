@@ -1,0 +1,153 @@
+/******** BASE STYLES ********/
+
+@font-face {
+    font-family: 'Wisdom Script Regular';
+    font-style: normal;
+    font-weight: normal;
+    src: url('../fonts/wisdom-script.woff') format('woff');
+    }
+body {
+    font-family: 'Montserrat', sans-serif;
+    color: #000000
+}
+/******** GRID ********/
+
+.full-width {
+    width: 1200px;
+    margin: 0 auto;
+    overflow: auto;
+}
+.half-width {
+    width: 600px;
+    float: left;
+}
+.third-width {
+    width: 395px;
+    float: left;
+}
+/******** HEADER ********/
+
+header h1 {
+    text-transform: uppercase;
+    font-size: 30px;
+    padding: 35px 0 30px 0;
+}
+header h1 span {
+    color: #77a466;
+}
+    /*** Navigation Section ***/
+
+nav {
+    float: right;
+    padding: 50px 0 40px 0;
+}
+nav ul li {
+    display: inline-block;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 14px;
+    padding: 0 5px 0 5px;
+}
+nav ul li a {
+    color: #77a466;
+    text-decoration: none;
+}
+
+/******** TOP SECTION ********/
+
+    /****** Image ******/
+
+#top img#hero-img {
+    border-top: 3px solid #77a466;
+    border-bottom: 3px solid #77a466;
+}
+    /****** Text ******/
+
+#top h2 {
+    text-transform: uppercase;
+    font-size: 18px;
+    line-height: 23px;
+    color: #77a466;
+    padding: 10px 0 0 0;
+}
+#top p {
+    font-size: 16px;
+    font-weight: normal;
+    line-height: 25px;
+    padding: 0 0 10px 0;
+}
+#top .full-width {
+    border-bottom: 1px solid #eeeeee;
+}
+
+/******** BOTTOM SECTION ********/
+
+    /****** Section One ******/
+
+#section-one h3 {
+    text-transform: uppercase;
+    font-size: 12px;
+    line-height: 25px;
+    padding: 10px 0 0 0;
+}
+#section-one ul {
+    padding: 0;
+    list-style: none;
+}
+#section-one ul li {
+    font-size: 16px;
+    line-height: 18px;
+    color: #77a466;
+    font-weight: normal;
+    padding: 10px 0;
+}
+    /****** Section Two ******/
+
+#section-two {
+    border-right: 1px solid #eeeeee;
+    border-left: 1px solid #eeeeee;
+}
+#section-two h3 {
+    text-transform: uppercase;
+    font-size: 12px;
+    line-height: 25px;
+    padding: 10px 30px 0 30px;
+}
+#section-two p {
+    font-size: 16px;
+    line-height: 21px;
+    font-weight: normal;
+    padding: 0 30px 5px 30px;
+}
+    /****** Section Three ******/
+
+#section-three h3 {
+    text-transform: uppercase;
+    font-size: 12px;
+    line-height: 25px;
+    padding: 10px 30px 0 30px;
+}
+#section-three p {
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: normal;
+    padding: 0 30px 5px 30px;
+}
+
+/******** FOOTER SECTION ********/
+
+#footer .full-width {
+    border-top: 1px solid #eeeeee;
+}
+#footer h2 {
+    font-size: 16px;
+    line-height: 23px;
+    text-transform: uppercase;
+    text-align: center;
+}
+#footer h2 span {
+    font-family: 'Wisdom Script Regular';
+    font-size: 16px;
+    text-transform:lowercase;
+    color: #77a466;
+}
